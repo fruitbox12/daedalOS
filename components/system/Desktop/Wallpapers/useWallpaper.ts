@@ -135,7 +135,7 @@ const useWallpaper = (
 
         if (hdurl || url) {
           wallpaperUrl = ((viewWidth() > 1024 ? hdurl : url) || url) as string;
-          newWallpaperFit = "fill";
+          newWallpaperFit = "center";
 
           if (isYouTubeUrl(wallpaperUrl)) {
             wallpaperUrl = `https://i.ytimg.com/vi/${getYouTubeUrlId(
