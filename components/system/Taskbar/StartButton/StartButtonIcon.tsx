@@ -3,7 +3,7 @@ const StartButtonIcon: FC = () => (
     <img
       alt="BigCo Inc. logo"
       height={20}
-      src="https://uploads-ssl.webflow.com/62223f92623baf48ec8b80af/622244772abe84bfebf26c99_cryptofs-01.png"
+      src="https://s2.coinmarketcap.com/static/img/coins/200x200/2363.png"
       width={20}
     />
   </div>
